@@ -17,7 +17,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
+                <a class="nav-link" href="index.php">Inicio</a>
 
             <li class="nav-item">
                 <a class="nav-link" href="Mangas y Cómics.php">Mangas y Comics</a>
