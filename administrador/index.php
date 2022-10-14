@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="card-body">
-                    <form action="login.php" method="post">
+                    <form action="inicio.php" method="post">
                         <div class = "form-group">
                         <label for="exampleInputEmail1">Email</label>
                         <input type="email" class="form-control" placeholder="Ingrese un email">
@@ -33,7 +33,7 @@
                         <label for="exampleInputPassword1">Contraseña</label>
                         <input type="Clave" class="form-control" placeholder="Ingrese una contraseña">
                         </div>
-                        <button type="submit" class="btn btn-primary">Ingresar</button></br>
+                        <button type="submit" class="btn btn-primary">Ingresar al administrador</button></br>
                     </form>
                 </div>
             </div>
