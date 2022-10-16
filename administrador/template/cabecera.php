@@ -11,10 +11,10 @@
     <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="nav navbar-nav">
             <a class="nav-item nav-link active" href="#">Administrador de la página<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">inicio</a>
-            <a class="nav-item nav-link" href="#">Mangas y Cómics</a>
-            <a class="nav-item nav-link" href="#">Cerrrar</a>
-            <a class="nav-item nav-link" href="#">Ver pagina</a>
+            <a class="nav-item nav-link" href="./inicio.php">inicio</a>
+            <a class="nav-item nav-link" href="./secciones/Mangas y Cómics.php">Mangas y Cómics</a>
+            <a class="nav-item nav-link" href="#">Cerrar</a>
+            <a class="nav-item nav-link" href="../index.php">Ver pagina</a>
         </div>
     </nav>
 
