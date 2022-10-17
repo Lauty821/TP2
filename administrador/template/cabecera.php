@@ -14,7 +14,7 @@
             <a class="nav-item nav-link" href="./inicio.php">inicio</a>
             <a class="nav-item nav-link" href="./secciones/Mangas y Cómics.php">Mangas y Cómics</a>
             <a class="nav-item nav-link" href="./secciones/Cerrar.php">Cerrar</a>
-            <a class="nav-item nav-link" href="../index.php">Ver pagina</a>
+            <a class="nav-item nav-link" href="../home.php">Ver pagina</a>
         </div>
     </nav>
 

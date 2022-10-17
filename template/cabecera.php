@@ -17,13 +17,28 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="index.php">Inicio</a>
+                <a class="nav-link" href="home.php">Inicio</a>
 
             <li class="nav-item">
                 <a class="nav-link" href="Mangas y Cómics.php">Mangas y Comics</a>
 
             <li class="nav-item">
                 <a class="nav-link" href="Quienes somos.php">¿Quienes somos?</a>
+
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="datos_modificar.php">Modificar datos</a>
+
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="confirmar_delete.php">¿Eliminar mis datos?</a>
+
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="cerrar.php">Cerrar sesión</a>
 
             </li>
         </ul>

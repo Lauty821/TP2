@@ -1,11 +1,47 @@
-<?php include("template/cabecera.php"); ?>
-    <div class="jumbotron">
-        <h1 class="display-3">¡Bienvenido a Astro Boys!</h1>
-        <p class="lead">Tenemos muchos mangas y cómics para ver</p>
-        <hr class="my-2">
-        <p>Más información</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="inicioSesion.php" role="button">Inicia sesión</a>
-        </p>
+<html lang="en">
+  <head>
+    <title>Gestor del sistema</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+            
+        </div>
+
+          <div class="col-md-4">
+            </br></br></br>
+            
+            <div class="card">
+              <div class="card-header">
+                Inicie sesión
+          </div>
+
+            <div class="card-body">
+              <form action="login.php" method="post">
+                <div class = "form-group">
+                  <label for="exampleInputUsername1">Usuario</label>
+                  <input name="usuario" class="form-control" placeholder="Ingrese su usuario">
+                  </div>
+                  <div class="form-group">
+                  <label for="exampleInputPassword1">Contraseña</label>
+                  <input name="clave" class="form-control" placeholder="Ingrese su contraseña">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Ingresar</button></br>
+                  <label for="exampleInputPassword1">¿No estas registrado?</label></br>
+                  <p><a href="create.php">Crear nuevo usuario</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>    
     </div>
-<?php include("template/pie.php"); ?>
+    
+  </body>
+</html>
