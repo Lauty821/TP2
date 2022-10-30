@@ -49,11 +49,11 @@ class ControladorSesion
         {
             session_start();
             $_SESSION['usuario'] = serialize($usuario);
-            return [true, "Datos actualizados correctamente"];
+            return [true, "Los datos se actualizaron correctamente"];
         } 
         else
         {
-            return [false, "Error al actualizar datos"];
+            return [false, "Error al actualizar los datos"];
         }
     }
 

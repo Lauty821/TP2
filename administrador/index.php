@@ -20,20 +20,33 @@
             <div class="card">
               <div class="card-header">
                 Inicie sesión
-          </div>
+            </div>
+
+            <?php
+            if (isset($_POST['mensaje']))
+            {
+              echo '<div id="mensaje" class="alert alert-primary text-center">
+              <p>'.$_POST['mensaje'].'</p></div>';
+            }
+            ?>
 
             <div class="card-body">
-              <form action="inicio.php" method="post">
+              <form action="home.php" method="post">
+
                 <div class = "form-group">
-                  <label for="exampleInputEmail1">Email</label>
-                  <input type="email" class="form-control" placeholder="Ingrese un email">
-                  </div>
-                  <div class="form-group">
-                  <label for="exampleInputPassword1">Contraseña</label>
-                  <input type="Clave" class="form-control" placeholder="Ingrese una contraseña">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Ingresar al administrador</button></br>
+                  <label for="exampleInputUsername1">Administrador</label>
+                  <input type="administrador" class="form-control" placeholder="Ingrese el nombre del aministrador">
                 </div>
+
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Contraseña</label>
+                  <input type="clave" class="form-control" placeholder="Ingrese una contraseña">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Ingresar al administrador de la página</button></br>
+                <label for="text">¿No estas registrado?</label></br>
+                <p><a href="create.php">Crear nuevo administrador</a></p>
+
               </form>
             </div>
           </div>

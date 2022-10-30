@@ -21,20 +21,31 @@
                 Inicie sesión
           </div>
 
+          <?php
+            if (isset($_GET['mensaje']))
+            {
+              echo '<div id="mensaje" class="alert alert-primary text-center">
+              <p>'.$_GET['mensaje'].'</p></div>';
+            }
+          ?>
+
             <div class="card-body">
               <form action="login.php" method="post">
+
                 <div class = "form-group">
                   <label for="exampleInputUsername1">Usuario</label>
                   <input name="usuario" class="form-control" placeholder="Ingrese su usuario">
-                  </div>
-                  <div class="form-group">
+                </div>
+
+                <div class="form-group">
                   <label for="exampleInputPassword1">Contraseña</label>
                   <input name="clave" class="form-control" placeholder="Ingrese su contraseña">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Ingresar</button></br>
-                  <label for="exampleInputPassword1">¿No estas registrado?</label></br>
-                  <p><a href="create.php">Crear nuevo usuario</a></p>
                 </div>
+
+                <button type="submit" class="btn btn-primary">Ingresar</button></br>
+                <label for="text">¿No estas registrado?</label></br>
+                <p><a href="create.php">Crear nuevo usuario</a></p>
+                
               </form>
             </div>
           </div>

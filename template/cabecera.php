@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astro Boys</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
 </head>
 <body>
 
@@ -28,12 +29,12 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="datos_modificar.php">Modificar datos</a>
+                <a class="nav-link" href="datos_modificar.php">Modificar mis datos</a>
 
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="confirmar_delete.php">¿Eliminar mis datos?</a>
+                <a class="nav-link" href="confirmar_delete.php">Eliminar mis datos</a>
 
             </li>
 
@@ -41,6 +42,7 @@
                 <a class="nav-link" href="cerrar.php">Cerrar sesión</a>
 
             </li>
+            
         </ul>
     </nav>
 
